@@ -1,0 +1,35 @@
+###
+GET http://localhost:8080
+
+###
+POST http://localhost:8080/cache/
+Content-Type: application/json
+
+{
+  "key": "key-one",
+  "value": 1
+}
+
+###
+GET http://localhost:8080/cache
+
+###
+GET http://localhost:8080/cache/key-one
+
+###
+PUT http://localhost:8080/cache/key-one
+Content-Type: application/json
+
+{
+  "key": "key-one",
+  "value": 100
+}
+
+###
+GET http://localhost:8080/cache/key-one
+
+###
+DELETE http://localhost:8080/cache/key-one
+
+###
+GET http://localhost:8080/cache/key-one
