@@ -6,7 +6,7 @@ import (
 	"os"
 	"time"
 
-	"sgithub.com/GGBusuioc/go-cache/config"
+	"github.com/GGBusuioc/go-cache/config"
 )
 
 type Logger struct {

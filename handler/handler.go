@@ -2,11 +2,11 @@ package handler
 
 import (
 	"encoding/json"
+	"github.com/GGBusuioc/go-cache/cache"
+	"github.com/GGBusuioc/go-cache/logger"
 	"github.com/gosimple/slug"
 	"net/http"
 	"regexp"
-	"spt-git-prod.lb.local/gbusuioc/gobootcamp/cache"
-	"spt-git-prod.lb.local/gbusuioc/gobootcamp/logger"
 )
 
 type Handler struct {

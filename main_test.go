@@ -8,11 +8,11 @@ import (
 	"os"
 	"testing"
 
+	"github.com/GGBusuioc/go-cache/cache"
+	"github.com/GGBusuioc/go-cache/config"
+	"github.com/GGBusuioc/go-cache/handler"
+	"github.com/GGBusuioc/go-cache/logger"
 	"github.com/stretchr/testify/assert"
-	"spt-git-prod.lb.local/gbusuioc/gobootcamp/cache"
-	"spt-git-prod.lb.local/gbusuioc/gobootcamp/config"
-	"spt-git-prod.lb.local/gbusuioc/gobootcamp/handler"
-	"spt-git-prod.lb.local/gbusuioc/gobootcamp/logger"
 )
 
 func readTestData(t *testing.T, name string) []byte {

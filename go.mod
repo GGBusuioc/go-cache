@@ -1,6 +1,6 @@
-module spt-git-prod.lb.local/gbusuioc/gobootcamp
+module github.com/GGBusuioc/go-cache
 
-go 1.23.1
+go 1.23.4
 
 require (
 	github.com/gosimple/slug v1.15.0
