@@ -63,7 +63,7 @@ func (h *Handler) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 }
 
 func (h *HomeHandler) ServeHTTP(w http.ResponseWriter, r *http.Request) {
-	w.Write([]byte("This is my home page for bet365 Go Training Exercise"))
+	w.Write([]byte("This is my home page."))
 }
 
 func (h *Handler) Create(w http.ResponseWriter, r *http.Request) {
